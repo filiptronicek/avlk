@@ -81,3 +81,23 @@ color: black;
     text-align: right;
   }
 }
+@media only screen and (max-width: 700px) {
+  .desktop {
+		display: none !important;
+  }
+}
+@media only screen and (min-width: 700px) {
+	.mobile {
+		display: none !important;
+	}
+}
+.arrowDown {
+	font-size: 20rem;
+	color: white;
+	width: 100vw;
+	text-align: center;
+}
+.section-head {
+	font-size: 6rem;
+	margin-left: 30px;
+}
