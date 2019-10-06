@@ -464,6 +464,12 @@ a {
     color: #173d50;
     background-color: transparent;
 }
+@media only screen and (max-width: 768px) {
+.pricing-header {
+    padding: 1em 0 1.3em;
+}
+}
+
 
 .exclusive .pricing-header {
     color: #7bcaeb;
@@ -665,4 +671,21 @@ a {
     padding: 1.7em 0;
     border-radius: 0 0 4px 4px;
 }
+#contact {
+	background: #ffe259;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffa751, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: #000;
+}
+.pricetable {
+	background: #56ab2f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+.timetable-swm {
+	background: #34e89e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
