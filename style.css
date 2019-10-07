@@ -875,3 +875,14 @@ section.timetable-atl {
 
   color: black;
 }
+section.madeBy {
+	background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome */
+color: black;
+font-size: 2rem !important;
+}
+.madeBy footer {
+	margin-top: 30vh;
+
+}
