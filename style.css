@@ -647,8 +647,6 @@ a {
 }
 
 .pricing-features li {
-  width: 100px;
-  float: left;
   padding: 1.6em 1em;
   font-size: 1.5rem;
   text-align: center;
@@ -668,9 +666,7 @@ a {
 
 .pricing-features em {
   display: block;
-  margin-bottom: 5px;
   font-weight: 600;
-  display: inline-block;
   margin-bottom: 0;
 }
 
@@ -700,12 +696,9 @@ a {
 .select {
   position: relative;
   z-index: 1;
-  display: block;
-  height: 100%;
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  color: transparent;
   position: static;
   display: inline-block;
   height: auto;
