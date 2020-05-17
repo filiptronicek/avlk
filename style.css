@@ -709,7 +709,6 @@ a {
 .has-margins .pricing-footer {
   padding-bottom: 0;
 }
-
 .select {
   position: relative;
   z-index: 1;
@@ -719,9 +718,6 @@ a {
   text-indent: 100%;
   white-space: nowrap;
   color: transparent;
-}
-
-.select {
   position: static;
   display: inline-block;
   height: auto;
