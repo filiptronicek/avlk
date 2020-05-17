@@ -269,15 +269,10 @@ body {
 a {
   text-decoration: none;
 }
-
-.pricing-container {
-  width: 90%;
-  max-width: 1170px;
-  margin: 4em auto;
-}
-
 .pricing-container {
   margin: 6em auto;
+  width: 90%;
+  max-width: 1170px;
 }
 .pricing-container.full-width {
   width: 100%;
