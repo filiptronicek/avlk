@@ -622,7 +622,7 @@ a {
   overflow: hidden;
 }
 .pricing-features {
-  width: 600px;
+  width: auto;
 }
 
 .pricing-features:after {
@@ -639,9 +639,6 @@ a {
   overflow: hidden;
   text-overflow: ellipsis;
   float: none;
-  width: auto;
-}
-.pricing-features {
   width: auto;
 }
 .exclusive .pricing-features li {
