@@ -655,17 +655,13 @@ a {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-.pricing-features {
-  width: auto;
-}
-
-.pricing-features li {
   float: none;
   width: auto;
   padding: 1em;
 }
-
+.pricing-features {
+  width: auto;
+}
 .exclusive .pricing-features li {
   margin: 0 3px;
 }
