@@ -685,21 +685,17 @@ a {
 .has-margins .exclusive .pricing-features li {
   margin: 0;
 }
-
 .pricing-footer {
+  position: relative;
+  height: auto;
+  padding: 1.8em 0;
+  text-align: center;
   position: absolute;
   z-index: 1;
   top: 0;
   left: 0;
   height: 80px;
   width: 100%;
-}
-
-.pricing-footer {
-  position: relative;
-  height: auto;
-  padding: 1.8em 0;
-  text-align: center;
 }
 
 .pricing-footer::after {
