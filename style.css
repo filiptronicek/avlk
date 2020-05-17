@@ -656,13 +656,6 @@ a {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
-.pricing-features em {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: 600;
-}
-
 .pricing-features {
   width: auto;
 }
@@ -678,6 +671,9 @@ a {
 }
 
 .pricing-features em {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
   display: inline-block;
   margin-bottom: 0;
 }
