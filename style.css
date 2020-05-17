@@ -614,18 +614,13 @@ a {
   font-weight: 700;
 }
 .pricing-body {
-  overflow-x: auto;
+  overflow-x: visible;
   -webkit-overflow-scrolling: touch;
 }
 
 .is-switched .pricing-body {
   overflow: hidden;
 }
-
-.pricing-body {
-  overflow-x: visible;
-}
-
 .pricing-features {
   width: 600px;
 }
