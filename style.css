@@ -304,7 +304,6 @@ a {
 .pricing-switcher label {
   position: relative;
   z-index: 1;
-  display: inline-block;
   float: left;
   width: 90px;
   height: 40px;
