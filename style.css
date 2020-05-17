@@ -204,7 +204,6 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -269,15 +268,10 @@ body {
 a {
   text-decoration: none;
 }
-
-.pricing-container {
-  width: 90%;
-  max-width: 1170px;
-  margin: 4em auto;
-}
-
 .pricing-container {
   margin: 6em auto;
+  width: 90%;
+  max-width: 1170px;
 }
 .pricing-container.full-width {
   width: 100%;
@@ -582,9 +576,9 @@ a {
 
 .duration {
   font-weight: 700;
-  font-size: 1.3rem;
   color: #8dc8e4;
   text-transform: uppercase;
+  font-size: 1.4rem;
 }
 
 .exclusive .duration {
@@ -618,26 +612,16 @@ a {
   font-size: 2rem;
   font-weight: 700;
 }
-
-.duration {
-  font-size: 1.4rem;
-}
-
 .pricing-body {
-  overflow-x: auto;
+  overflow-x: visible;
   -webkit-overflow-scrolling: touch;
 }
 
 .is-switched .pricing-body {
   overflow: hidden;
 }
-
-.pricing-body {
-  overflow-x: visible;
-}
-
 .pricing-features {
-  width: 600px;
+  width: auto;
 }
 
 .pricing-features:after {
@@ -654,9 +638,6 @@ a {
   overflow: hidden;
   text-overflow: ellipsis;
   float: none;
-  width: auto;
-}
-.pricing-features {
   width: auto;
 }
 .exclusive .pricing-features li {
